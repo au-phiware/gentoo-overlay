@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "repositories.dtd">
+<repositories version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>au-phiware</name>
+    <description>Personal collection of ebuilds of Corin Lawson (au-phiware).</description>
+    <homepage>https://github.com/au-phiware/gentoo-overlay</homepage>
+    <owner type="user">
+      <email>corin@phiware.com.au</email>
+      <name>Corin Lawson</name>
+    </owner>
+    <source type="git">https://github.com/au-phiware/gentoo-overlay</source>
+  </repo>
+</repositories>
