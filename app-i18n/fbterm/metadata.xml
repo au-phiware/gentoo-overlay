@@ -2,4 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 <herd>cjk</herd>
+<use>
+	<flag name="solarized-dark">
+		Sets the built-in default colour palette to be Ethan Schoonover's Solarized (http://ethanschoonover.com/solarized) (with a dark background).
+	</flag>
+	<flag name="solarized-light">
+		Sets the built-in default colour palette to be Ethan Schoonover's Solarized (http://ethanschoonover.com/solarized) (with a light background).
+	</flag>
+</use>
 </pkgmetadata>
