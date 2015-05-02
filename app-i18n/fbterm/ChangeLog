@@ -1,0 +1,21 @@
+# ChangeLog for app-i18n/fbterm
+
+*fbterm-1.7-r2 (02 May 2015)
+
+  02 May 2015; Corin Lawson <corin@phiware.com.au> +fbterm-1.7-r2.ebuild:
+  Added solarized-{dark,light} palette as the default at compile time.
+
+*fbterm-1.7-r1 (07 Aug 2014)
+
+  07 Aug 2014; Yixun Lan <dlan@gentoo.org> -fbterm-1.7.ebuild,
+  +fbterm-1.7-r1.ebuild:
+  fix typo, bug 519486, thanks Casper Ti. Vector
+
+  07 Jul 2012; Ben de Groot <yngwin@gentoo.org> fbterm-1.7.ebuild:
+  Fix typo (bug #425136). Minor ebuild cleanup.
+
+*fbterm-1.7 (21 Jun 2012)
+
+  21 Jun 2012; Naohiro Aota <naota@gentoo.org> +fbterm-1.7.ebuild,
+  +metadata.xml:
+  New package app-i18n/fbterm. #252155

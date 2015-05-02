@@ -51,7 +51,10 @@ Note that for each package that you intend to merge, you will need to replace
 Overlay Contents
 ----------------
 
-> Matter is composed chiefly of nothing.
-> --<cite>Carl Sagan</cite>
+### app-i18n/fbterm
 
+- Added solarized-dark and solarized-light USE flags,
+  which sets the default colour palette to the
+  [solarized](http://ethanschoonover.com/solarized) colour scheme
+  (with dark or light barkground, respectively).
 
