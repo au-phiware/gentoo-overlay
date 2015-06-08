@@ -24,12 +24,8 @@ pkg_setup() {
 }
 
 src_unpack() {
-    local plugin_uri
-    plugin_uri="${EGIT_REPO_URI%.git}"Plugins.git
     git-r3_src_unpack
     git -C "${MATTERCONTROL_CHECKOUT_DIR}" submodule update --init --recursive
-    git-r3_fetch "${plugin_uri}"
-    git-r3_checkout "${plugin_uri}" "${MATTERCONTROL_CHECKOUT_DIR}"/../MatterControlPlugins
 }
 
 src_prepare() {
