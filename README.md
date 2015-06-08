@@ -51,6 +51,10 @@ Note that for each package that you intend to merge, you will need to replace
 Overlay Contents
 ----------------
 
+### media-gfx/MatterControl
+
+- Roughly follows [these instructions](http://wiki.mattercontrol.com/Building_MatterControl).
+
 ### app-i18n/fbterm
 
 - Added solarized-dark and solarized-light USE flags,
