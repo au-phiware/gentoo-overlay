@@ -1,2 +1,2 @@
-!#/bin/sh
+#!/bin/sh
 exec /usr/bin/mono /usr/lib/MatterControl/bin/Release/MatterControl.exe
