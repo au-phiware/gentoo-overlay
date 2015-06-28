@@ -55,7 +55,7 @@ Overlay Contents
   [solarized](http://ethanschoonover.com/solarized) colour scheme
   (with dark or light barkground, respectively).
 
-### sys-config/solarized
+### virtual/solarized
 
 - Adds solarized colours to grub's kernel parameters.
 - Defines solarized colours in global xresources
