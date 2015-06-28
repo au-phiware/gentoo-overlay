@@ -3,7 +3,7 @@
 # $Header: $
 
 EAPI="5"
-inherit git-r3
+inherit mono git-r3
 
 DESCRIPTION="From easy to expert, all in one 3D printing software."
 HOMEPAGE="http://www.mattercontrol.com/"
