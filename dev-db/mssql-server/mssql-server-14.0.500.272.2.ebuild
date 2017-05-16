@@ -25,14 +25,14 @@ IUSE=""
 #   gdb
 #   libsss_nss_idmap
 DEPEND=""
-RDEPEND="${DEPEND} >=dev-libs/openssl-1.0.1 <dev-libs/openssl-1.1.0 sys-process/numactl dev-libs/nss app-arch/bzip2 sys-auth/sssd"
+RDEPEND="${DEPEND} >=dev-libs/openssl-1.0.1 <dev-libs/openssl-1.1.0 sys-process/numactl app-arch/bzip2 sys-auth/sssd"
 
 S="${WORKDIR}"
 
 pkg_config() {
-	if [ -d "${ROOT%/}"/var/opt/mssql/data ]
+	if [ -f "${ROOT%/}"/var/opt/mssql/data/master.mdf ]
 	then
-		einfo "It appears that the mssql database already exists."
+		einfo "It appears that the master database already exists."
 	else
 		"${ROOT%/}"/opt/mssql/bin/mssql-conf setup
 	fi
