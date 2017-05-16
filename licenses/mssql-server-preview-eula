@@ -1,0 +1,206 @@
+===============================================================================
+
+MICROSOFT PRE-RELEASE SOFTWARE LICENSE TERMS
+MICROSOFT SQL SERVER (PREVIEW)
+
+===============================================================================
+
+These license terms are an agreement between Microsoft Corporation (or based on
+where you live, one of its affiliates) and you. Please read them. They apply to
+the pre-release software named above, which includes the media on which you
+received it, if any. The terms also apply to any Microsoft
+	-	updates,
+	-	supplements,
+	-	Internet-based services, and
+	-	support services
+for this software, unless other terms accompany those items. If so, those terms
+apply.
+
+By using the software, you accept these terms. If you do not accept them, do not
+use the software.
+
+As described below, using some features also operates as your consent to the
+transmission of certain standard computer information for Internet-based
+services.
+
+===============================================================================
+
+If you comply with these license terms, you have the rights below.
+
+1.	INSTALLATION AND USE RIGHTS.
+
+	a.	Installation and Use.
+		-	You may install and use up to ten copies of the software on your
+premises to design, develop and test your programs for use with the software.
+		-	You may not test the software in a live operating environment unless
+Microsoft permits you to do so under another agreement.
+	b.	Included Microsoft Programs. The software contains other Microsoft
+programs. The license terms with those programs apply to your use of them.
+
+2.	INTERNET-BASED SERVICES. Microsoft provides Internet-based services with the
+software. It may change or cancel them at any time.
+	a.	Consent for Internet-Based Services. The software features described
+below and in the Microsoft Privacy Statement connect to Microsoft or service
+provider computer systems over the Internet. In some cases, you will not receive
+a separate notice when they connect. In some cases, you may switch off these
+features or not use them. For more information about these features, see the
+software documentation. By using these features, you consent to the transmission
+of this information. Microsoft does not use the information to identify or
+contact you.
+		i.	Computer Information. The following features use Internet protocols,
+which send to the appropriate systems computer information, such as your
+Internet protocol address, the type of operating system, browser and name and
+version of the software you are using, and the language code of the device where
+you installed the software. Microsoft uses this information to make the
+Internet-based services available to you.
+			-	Customer Experience Improvement Program (CEIP). This software
+uses CEIP. CEIP automatically sends Microsoft information about your hardware
+and how you use this software. We do not use this information to identify or
+contact you. To learn more about CEIP, see
+http://go.microsoft.com/fwlink/?LinkID=733654&clcid=0x409.
+			-	Digital Certificates. The software uses digital certificates.
+These digital certificates confirm the identity of Internet users sending X.509
+standard encrypted information. They also can be used to digitally sign files
+and macros to verify the integrity and origin of the file contents. The software
+retrieves certificates and updates certificate revocation lists using the
+Internet, when available.
+			-	Error Reports. This software automatically sends error reports
+to Microsoft. These reports include information about problems that occur in the
+software. Sometimes reports contain information about other programs that
+interact with the software. Reports might unintentionally contain personal
+information. For example, a report that contains a snapshot of computer memory
+might include your name. Part of a document you were working on could be
+included as well. Microsoft does not use this information to identify or contact
+you. To learn more about error reports, see
+http://go.microsoft.com/fwlink/?LinkID=733654&clcid=0x409.
+			-	Microsoft Error Reporting Service. This feature helps Microsoft
+and Windows partners diagnose problems in the software and provide solutions.
+Not all problems will have a solution but when a solution is available, it will
+be offered as a step to solve a problem you have reported or as an update to
+install. As part of setup and installation, the Microsoft Error Reporting
+Service sends to Microsoft information about setup and installation failures in
+order to attempt to diagnose the problem. To help prevent problems and make the
+software more reliable, some solutions are also included in service packs and
+future versions of the software.
+		ii.	Use of Information. We may use the computer information, error
+reports, and CEIP information, to improve our software and services. We may also
+share it with others, such as hardware and software vendors. They may use the
+information to improve how their products run with Microsoft software.
+
+3.	TIME-SENSITIVE SOFTWARE. The software will stop running 120 days after you
+install it. You will receive notice on the total number of days remaining, until
+the time bomb expires, every time you restart the software. You may not be able
+to access data used with the software when it stops running.
+
+4.	PRE-RELEASE SOFTWARE. This software is a pre-release version. It may not
+work the way a final version of the software will. We may change it for the
+final, commercial version. We also may not release a commercial version.
+
+5.	FEEDBACK. Because this is pre-release software, you agree to give feedback
+about the software to Microsoft. You give to Microsoft, without charge, the
+right to use, share and commercialize your feedback in any way and for any
+purpose. You also give to third parties, without charge, any patent rights
+needed for their products, technologies and services to use or interface with
+any specific parts of a Microsoft software or service that includes the
+feedback. You will not give feedback that is subject to a license that requires
+Microsoft to license its software or documentation to third parties because we
+include your feedback in them. These rights survive this agreement.
+
+6.	CONFIDENTIAL INFORMATION. The software, including its user interface,
+features and documentation, is confidential and proprietary to Microsoft and its
+suppliers.
+	a.	Use. For five years after installation of the software or its commercial
+release, whichever is first, you may not disclose confidential information to
+third parties. You may disclose confidential information only to your employees
+and consultants who need to know the information. You must have written
+agreements with them that protect the confidential information at least as much
+as this agreement.
+	b.	Survival. Your duty to protect confidential information survives this
+agreement.
+	c.	Exclusions. You may disclose confidential information in response to a
+judicial or governmental order. You must first give written notice to Microsoft
+to allow it to seek a protective order or otherwise protect the information.
+Confidential information does not include information that
+		-	becomes publicly known through no wrongful act;
+		-	you received from a third party who did not breach confidentiality
+obligations to Microsoft or its suppliers; or
+		-	you developed independently.
+
+7.	.NET FRAMEWORK SOFTWARE. The software contains Microsoft .NET Framework
+software. This software is part of Windows. The license terms for Windows apply
+to your use of the .NET Framework software.
+
+8.	SCOPE OF LICENSE. The software is licensed, not sold. This agreement only
+gives you some rights to use the software. Microsoft reserves all other rights.
+Unless applicable law gives you more rights despite this limitation, you may use
+the software only as expressly permitted in this agreement. In doing so, you
+must comply with any technical limitations in the software that only allow you
+to use it in certain ways. You may not
+	-	disclose the results of any benchmark tests of the software, other than
+the Microsoft .NET Framework (see separate term above), to any third party
+without Microsoft's prior written approval;
+	-	work around any technical limitations in the software;
+	-	reverse engineer, decompile or disassemble the software, except and only
+to the extent that applicable law expressly permits, despite this limitation;
+	-	make more copies of the software than specified in this agreement or
+allowed by applicable law, despite this limitation;
+	-	publish the software for others to copy;
+	-	rent, lease or lend the software;
+	-	transfer the software or this agreement to any third party; or
+	-	use the software for commercial software hosting services.
+
+9.	EXPORT RESTRICTIONS. The software is subject to United States export laws
+and regulations. You must comply with all domestic and international export laws
+and regulations that apply to the software. These laws include restrictions on
+destinations, end users and end use. For additional information, see
+www.microsoft.com/exporting.
+
+10.	SUPPORT SERVICES. Because this software is "AS IS" may not provide support
+services for it.
+
+11.	ENTIRE AGREEMENT. This agreement, and the terms for supplements, updates,
+Internet-based services and support services that you use, are the entire
+agreement for the software and support services.
+
+12.	APPLICABLE LAW.
+	a.	United States. If you acquired the software in the United States,
+Washington state law governs the interpretation of this agreement and applies to
+claims for breach of it, regardless of conflict of laws principles. The laws of
+the state where you live govern all other claims, including claims under state
+consumer protection laws, unfair competition laws, and in tort.
+	b.	Outside the United States. If you acquired the software in any other
+country, the laws of that country apply.
+
+13.	LEGAL EFFECT. This agreement describes certain legal rights. You may have
+other rights under the laws of your country. You may also have rights with
+respect to the party from whom you acquired the software. This agreement does
+not change your rights under the laws of your country if the laws of your
+country do not permit it to do so.
+
+14.	DISCLAIMER OF WARRANTY. The software is licensed "as-is." You bear
+the risk of using it. Microsoft gives no express warranties, guarantees or
+conditions. You may have additional consumer rights or statutory guarantees
+under your local laws which this agreement cannot change. To the extent
+permitted under your local laws, Microsoft excludes the implied warranties of
+merchantability, fitness for a particular purpose and non-infringement.
+
+FOR AUSTRALIA -- You have statutory guarantees under the Australian Consumer
+Law and nothing in these terms is intended to affect those rights.
+
+15.	LIMITATION ON AND EXCLUSION OF REMEDIES AND DAMAGES. You can recover from
+Microsoft and its suppliers only direct damages up to U.S. $5.00. You cannot
+recover any other damages, including consequential, lost profits, special,
+indirect or incidental damages.
+
+This limitation applies to
+	-	anything related to the software, services, content (including code) on
+third party Internet sites, or third party programs; and
+	-	claims for breach of contract, breach of warranty, guarantee or
+condition, strict liability, negligence, or other tort to the extent permitted
+by applicable law.
+
+It also applies even if Microsoft knew or should have known about the
+possibility of the damages. The above limitation or exclusion may not apply to
+you because your country may not allow the exclusion or limitation of
+incidental, consequential or other damages.
+
