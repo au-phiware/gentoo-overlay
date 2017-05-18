@@ -30,6 +30,19 @@ RDEPEND="${DEPEND} >=dev-libs/openssl-1.0.1 <dev-libs/openssl-1.1.0 sys-process/
 S="${WORKDIR}"
 
 pkg_config() {
+	if use zfs
+	then
+		einfo "ZFS is not supported. Let's make an ext4 filesystem in a zvol!"
+		read -p "Enter name of new zvol: " zvolname
+		read -p "Enter size of new zvol: " zvolsize
+		zfs create -s -V $zvolsize $zvolname
+		echo ",,L" | sfdisk /dev/zvol/$zvolname
+		mkfs.ext4 /dev/zvol/${zvolname}-part1
+		echo "/dev/zvol/${zvolname}-part1 /var/opt/mssql ext4          noatime         0 0" >> /etc/fstab
+		mkdir /var/opt/mssql
+		mount /var/opt/mssql
+	fi
+
 	if [ -f "${ROOT%/}"/var/opt/mssql/data/master.mdf ]
 	then
 		einfo "It appears that the master database already exists."
