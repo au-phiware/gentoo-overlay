@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email>corin@phiware.com.au</email>
+		<name>Corin Lawson</name>
+	</maintainer>
+	<longdescription>
+Pre-patched and adjusted fonts for usage with the new Powerline plugin.
+</longdescription>
+	<upstream>
+		<bugs-to>https://github.com/powerline/fonts/issues</bugs-to>
+	</upstream>
+	<use>
+		<flag name="ttf-anonymouspro">Install Powerline-patched Anonymous Pro fonts</flag>
+		<flag name="ttf-arimo">Install Powerline-patched Arimo fonts</flag>
+		<flag name="ttf-cousine">Install Powerline-patched Cousine fonts</flag>
+		<flag name="ttf-d2coding">Install Powerline-patched D2Coding fonts</flag>
+		<flag name="ttf-dejavusansmono">Install Powerline-patched DejaVu Sans Mono fonts</flag>
+		<flag name="otf-droidsansmono">Install Powerline-patched Droid Sans Mono fonts</flag>
+		<flag name="ttf-droidsansmonodotted">Install Powerline-patched Droid Sans Mono Dotted fonts</flag>
+		<flag name="ttf-droidsansmonoslashed">Install Powerline-patched Droid Sans Mono Slashed fonts</flag>
+		<flag name="otf-firamono">Install Powerline-patched Fira Mono fonts</flag>
+		<flag name="ttf-gomono">Install Powerline-patched Go Mono fonts</flag>
+		<flag name="ttf-hack">Install Powerline-patched Hack fonts</flag>
+		<flag name="ttf-3270">Install Powerline-patched IBM 3270 fonts</flag>
+		<flag name="otf-inconsolata">Install Powerline-patched Inconsolata fonts</flag>
+		<flag name="otf-inconsolatadz">Install Powerline-patched Inconsolata-dz fonts</flag>
+		<flag name="otf-inconsolata-g">Install Powerline-patched Inconsolata-g fonts</flag>
+		<flag name="ttf-liberationmono">Install Powerline-patched Liberation Mono fonts</flag>
+		<flag name="ttf-meslodotted">Install Powerline-patched Meslo Dotted fonts</flag>
+		<flag name="ttf-mesloslashed">Install Powerline-patched Meslo Slashed fonts</flag>
+		<flag name="ttf-notomono">Install Powerline-patched Noto Mono fonts</flag>
+		<flag name="ttf-monofur">Install Powerline-patched monofur fonts</flag>
+		<flag name="ttf-novamono">Install Powerline-patched NovaMono fonts</flag>
+		<flag name="ttf-profont">Install Powerline-patched ProFont fonts</flag>
+		<flag name="ttf-robotomono">Install Powerline-patched Roboto Mono fonts</flag>
+		<flag name="otf-sourcecodepro">Install Powerline-patched Source Code Pro fonts</flag>
+		<flag name="ttf-spacemono">Install Powerline-patched Space Mono fonts</flag>
+		<flag name="ttf-symbolneu">Install Powerline-patched Symbol Neu fonts</flag>
+		<flag name="ttf-tinos">Install Powerline-patched Tinos fonts</flag>
+		<flag name="ttf-ubuntumono">Install Powerline-patched Ubuntu Mono fonts</flag>
+		<flag name="pcf-terminus">Install Powerline-patched xos4 Terminus fonts in PCF format</flag>
+		<flag name="psf-terminus">Install Powerline-patched xos4 Terminus fonts in PSF format</flag>
+	</use>
+</pkgmetadata>
