@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email>corin@phiware.com.au</email>
+		<name>Corin Lawson</name>
+	</maintainer>
+	<longdescription>
+Pre-patched and adjusted fonts for usage with the new Powerline plugin.
+</longdescription>
+	<upstream>
+		<bugs-to>https://github.com/ryanoasis/nerd-fonts/issues</bugs-to>
+	</upstream>
+	<use>
+		<flag name="otf">Prefer OTF files</flag>
+		<flag name="ttf">Prefer TTF files</flag>
+		<flag name="single">Install single-width glyphs variants</flag>
+		<flag name="windows">Install with limited internal font names</flag>
+		<flag name="complete">Variants with patches applied</flag>
+		<flag name="minimal">Variants with minimal patches applied</flag>
+		<flag name="all">Install all patched fonts</flag>
+		<flag name="3270">Install patched 3270 fonts</flag>
+		<flag name="anonymouspro">Install patched AnonymousPro fonts</flag>
+		<flag name="arimo">Install patched Arimo fonts</flag>
+		<flag name="aurulentsansmono">Install patched AurulentSansMono fonts</flag>
+		<flag name="bigblueterminal">Install patched BigBlueTerminal fonts</flag>
+		<flag name="bitstreamverasansmono">Install patched BitstreamVeraSansMono fonts</flag>
+		<flag name="blex">Install patched Blex fonts</flag>
+		<flag name="codenewroman">Install patched CodeNewRoman fonts</flag>
+		<flag name="cousine">Install patched Cousine fonts</flag>
+		<flag name="dejavusansmono">Install patched DejaVuSansMono fonts</flag>
+		<flag name="droidsansmono">Install patched DroidSansMono fonts</flag>
+		<flag name="fantasquesansmono">Install patched FantasqueSansMono fonts</flag>
+		<flag name="firacode">Install patched FiraCode fonts</flag>
+		<flag name="firamono">Install patched FiraMono fonts</flag>
+		<flag name="go">Install patched Go-Mono fonts</flag>
+		<flag name="gohu">Install patched Gohu fonts</flag>
+		<flag name="hack">Install patched Hack fonts</flag>
+		<flag name="hasklig">Install patched Hasklig fonts</flag>
+		<flag name="heavydata">Install patched HeavyData fonts</flag>
+		<flag name="hermit">Install patched Hermit fonts</flag>
+		<flag name="inconsolata">Install patched Inconsolata fonts</flag>
+		<flag name="inconsolatago">Install patched InconsolataGo fonts</flag>
+		<flag name="inconsolatalgc">Install patched InconsolataLGC fonts</flag>
+		<flag name="iosevka">Install patched Iosevka fonts</flag>
+		<flag name="lekton">Install patched Lekton fonts</flag>
+		<flag name="liberationmono">Install patched LiberationMono fonts</flag>
+		<flag name="mplus">Install patched MPlus fonts</flag>
+		<flag name="meslo">Install patched Meslo fonts</flag>
+		<flag name="monofur">Install patched Monofur fonts</flag>
+		<flag name="monoid">Install patched Monoid fonts</flag>
+		<flag name="mononoki">Install patched Mononoki fonts</flag>
+		<flag name="noto">Install patched Noto fonts</flag>
+		<flag name="opendyslexic">Install patched OpenDyslexic fonts</flag>
+		<flag name="overpass">Install patched Overpass fonts</flag>
+		<flag name="profont">Install patched ProFont fonts</flag>
+		<flag name="proggyclean">Install patched ProggyClean fonts</flag>
+		<flag name="robotomono">Install patched RobotoMono fonts</flag>
+		<flag name="sharetechmono">Install patched ShareTechMono fonts</flag>
+		<flag name="sourcecodepro">Install patched SourceCodePro fonts</flag>
+		<flag name="spacemono">Install patched SpaceMono fonts</flag>
+		<flag name="terminus">Install patched Terminus fonts</flag>
+		<flag name="tinos">Install patched Tinos fonts</flag>
+		<flag name="ubuntu">Install patched Ubuntu fonts</flag>
+		<flag name="ubuntumono">Install patched UbuntuMono fonts</flag>
+	</use>
+</pkgmetadata>
