@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+docker run --env-file=<(env) --user=$UID:$GID "--volume=$HOME:$HOME" "--volume=$PWD:$PWD" "--workdir=$PWD" --network=host -it $(basename "$0") "$@"
