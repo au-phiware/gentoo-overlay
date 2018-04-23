@@ -9,7 +9,7 @@ MERGE_TYPE=binary
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS=""
-IUSE=""
+IUSE="bash-completion"
 
 DEPEND="app-emulation/docker"
 RDEPEND="docker-image/docker-bin $DEPEND"
@@ -28,4 +28,10 @@ pkg_preinst() {
 		Dockerfile
 
 	dosym docker-bin /usr/bin/az
+
+	if use bash-completion; then
+		docker run --entrypoint /bin/cat az /azure-cli/az.completion > "${T}/bash-completion"
+		insinto /usr/share/bash-completion/completions
+		newins "${T}/bash-completion" az
+	fi
 }

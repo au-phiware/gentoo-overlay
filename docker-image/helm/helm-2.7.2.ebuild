@@ -9,7 +9,7 @@ MERGE_TYPE=binary
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS=""
-IUSE=""
+IUSE="zsh-completion bash-completion"
 
 DEPEND="app-emulation/docker"
 RDEPEND="docker-image/docker-bin $DEPEND"
@@ -23,4 +23,14 @@ pkg_preinst() {
 	docker tag "${image}" "${PN}"
 
 	dosym docker-bin "/usr/bin/${PN}"
+
+	if use zsh-completion; then
+		docker run "${PN}" completion zsh > "${T}/zsh-completion"
+		insinto /usr/share/zsh/site-functions
+		newins "${T}/zsh-completion" "_${PN}"
+	elif use bash-completion; then
+		docker run "${PN}" completion bash > "${T}/bash-completion"
+		insinto /usr/share/bash-completion/completions
+		newins "${T}/bash-completion" "${PN}"
+	fi
 }
