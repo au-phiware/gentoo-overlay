@@ -3,7 +3,7 @@
 
 EAPI=6
 
-inherit git-r3
+inherit git-r3 systemd
 
 DESCRIPTION="Automatic snapshots for ZFS on Linux"
 HOMEPAGE="https://github.com/zfsonlinux/zfs-auto-snapshot/"
@@ -27,12 +27,12 @@ src_unpack() {
 }
 
 src_install() {
-	use systemd && mkdir -p "${D}"/usr/lib/systemd/system
-	emake DESTDIR="${D}" PREFIX=/usr install
+	use systemd && mkdir -p "${D%/}$(systemd_get_systemunitdir)"
+	emake DESTDIR="${D}" PREFIX="${EPREFIX}" SYSTEMD_HOME="$(systemd_get_systemunitdir)" install
 
 	if use systemd
 	then
-		sed -i "s/\(\/usr\)\/local/\1/" ${D}/usr/lib/systemd/system/* || die
+		sed -i "s/\/usr\/local/${EPREFIX//\//\\\/}\//" "${D%/}$(systemd_get_systemunitdir)/"* || die
 	else
 		fperms a-x /etc/cron.d/${PN}
 	fi
