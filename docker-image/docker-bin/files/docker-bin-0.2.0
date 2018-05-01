@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
 docker run \
+	--rm \
 	--env-file=<(env) \
 	--user=$UID:$GID \
-	--volume=/etc/passwd:/etc/passwd:ro
+	--volume=/etc/passwd:/etc/passwd:ro \
+	${TMPDIR:+"--volume=$TMPDIR:$TMPDIR"} \
 	"--volume=$HOME:$HOME" \
 	"--volume=$PWD:$PWD" \
 	"--workdir=$PWD" \
