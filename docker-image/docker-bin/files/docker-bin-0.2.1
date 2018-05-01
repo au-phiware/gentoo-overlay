@@ -3,7 +3,7 @@
 docker run \
 	--rm \
 	--env-file=<(env) \
-	--user=$UID:$GID \
+	--user=$(id -u):$(id -g) \
 	--volume=/etc/passwd:/etc/passwd:ro \
 	${TMPDIR:+"--volume=$TMPDIR:$TMPDIR"} \
 	"--volume=$HOME:$HOME" \

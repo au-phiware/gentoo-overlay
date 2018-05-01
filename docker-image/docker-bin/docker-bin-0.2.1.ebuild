@@ -11,7 +11,7 @@ SLOT="0"
 KEYWORDS=""
 IUSE=""
 
-RDEPEND="app-emulation/docker"
+RDEPEND="sys-apps/coreutils app-emulation/docker"
 DEPEND=""
 
 pkg_preinst() {
