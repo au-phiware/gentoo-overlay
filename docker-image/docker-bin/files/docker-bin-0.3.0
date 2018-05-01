@@ -11,4 +11,6 @@ docker run \
 	"--workdir=$PWD" \
 	--network=host \
 	--volume=/etc/hosts:/etc/hosts:ro \
-	-it $(basename "$0") "$@"
+	--interactive \
+	$(tty -s && echo -n --tty) \
+	$(basename "$0") "$@"
