@@ -25,7 +25,7 @@ pkg_preinst() {
 		CMD [""]
 
 		RUN apk add --no-cache docker
-		Dockerfile
+Dockerfile
 
 	dosym docker-bin /usr/bin/az
 

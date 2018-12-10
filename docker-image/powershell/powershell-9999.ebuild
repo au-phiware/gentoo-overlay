@@ -16,14 +16,17 @@ RDEPEND="docker-image/docker-bin $DEPEND"
 
 pkg_preinst() {
 	MY_PV=$PV
-	[[ "${PV}" == "9999" ]] && MY_PV=latest
+	if [[ "${PV}" == "9999" ]]; then
+		MY_PV=latest
+		docker pull microsoft/powershell:${MY_PV}
+	fi
 
 	docker build -t pwsh -f - /var/empty <<- Dockerfile
 		FROM microsoft/powershell:${MY_PV}
 
 		ENTRYPOINT ["pwsh"]
 		CMD [""]
-		Dockerfile
+Dockerfile
 
 	dosym docker-bin /usr/bin/pwsh
 }

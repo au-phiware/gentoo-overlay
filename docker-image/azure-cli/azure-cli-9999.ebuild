@@ -16,7 +16,10 @@ RDEPEND="docker-image/docker-bin $DEPEND"
 
 pkg_preinst() {
 	MY_PV=$PV
-	[[ "${PV}" == "9999" ]] && MY_PV=latest
+	if [[ "${PV}" == "9999" ]]; then
+		MY_PV=latest
+		docker pull microsoft/azure-cli:${MY_PV}
+	fi
 
 	docker build -t az -f - /var/empty <<- Dockerfile
 		FROM microsoft/azure-cli:${MY_PV}
@@ -25,7 +28,7 @@ pkg_preinst() {
 		CMD [""]
 
 		RUN apk add --no-cache docker
-		Dockerfile
+Dockerfile
 
 	dosym docker-bin /usr/bin/az
 
