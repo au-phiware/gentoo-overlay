@@ -35,6 +35,7 @@ src_prepare() {
 
 src_install() {
 	eqmake5
+	emake INSTALL_ROOT="${D}/usr" install
 	use systemd && systemd_dounit "${S}/init/systemd/twmnd.service"
 	einstalldocs
 }
